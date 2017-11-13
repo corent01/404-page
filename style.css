@@ -1,0 +1,19 @@
+@keyframes example
+{
+from {background-image: url(eS5_dB.gif);}
+to {background-image: url(tumblr_obf3zqIVm41uasoyfo1_500.gif);}
+}
+
+
+
+
+body {
+color:white;
+background-image:url(eS5_dB.gif);
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: cover;
+animation-name: example;
+animation-duration: 0.60s;
+animation-iteration-count: infinite;
+}
